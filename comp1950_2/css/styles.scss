@@ -146,6 +146,10 @@ ul.nav li {
     .col-s.primary_nav li a {
     color: $maingray;
   }
+  #current_page {
+    color: #ececec;
+    text-decoration: none;
+  }
   
   .primary_nav li {
     text-transform: uppercase;

@@ -130,10 +130,14 @@ ul.nav li {
   color: white;
 }
 
+
 .primary_nav li a {
   color: #a6a6a6;
 }
-
+#current_page {
+  color: #ececec;
+  text-decoration: none;
+}
 .primary_nav li {
   text-transform: uppercase;
   font-size: 1.1em;
