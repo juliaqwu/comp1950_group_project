@@ -4,6 +4,7 @@
  */
  *{
    font-family: 'Roboto','sans-serif'
+   
  }
 body {
     padding-top: 100px;
@@ -14,6 +15,16 @@ h1{
   text-align: center;
   color: #428bca;
   padding-bottom: 30px;
+}
+a{
+  color: #89b3e2;
+  text-decoration: none;
+}
+a:hover, a:focus{
+  
+  color: #526780;
+  
+  
 }
 
 /*
@@ -43,6 +54,7 @@ ul.nav li.active a {
 ul.nav li {
   color: #7a7a79;
   padding: 3px 0;
+  
 }
 
 /* Hide for mobile, show later */
@@ -118,10 +130,14 @@ ul.nav li {
   color: white;
 }
 
+
 .primary_nav li a {
   color: #a6a6a6;
 }
-
+#current_page {
+  color: #ececec;
+  text-decoration: none;
+}
 .primary_nav li {
   text-transform: uppercase;
   font-size: 1.1em;
@@ -211,7 +227,6 @@ footer{
 }
 h2, h3, h4{ 	
   page-break-after: avoid;
-  page-break-before: always;
 	}
 section{ 	page-break-after: always;	}
 

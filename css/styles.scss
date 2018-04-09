@@ -19,6 +19,16 @@ $maingray:#a6a6a6;
    color: #428bca;
    padding-bottom: 30px;
  }
+ a{
+    color: #89b3e2;
+    text-decoration: none;
+  }
+  a:hover, a:focus{
+    
+    color: #526780;
+    
+    
+  }
 
 /*
  * Top navigation
@@ -48,6 +58,7 @@ ul.nav li.active a {
 ul.nav li {
   color: #7a7a79;
   padding: 3px 0;
+  
 }
 
 /* Hide for mobile, show later */
@@ -134,6 +145,10 @@ ul.nav li {
     }
     .col-s.primary_nav li a {
     color: $maingray;
+  }
+  #current_page {
+    color: #ececec;
+    text-decoration: none;
   }
   
   .primary_nav li {
